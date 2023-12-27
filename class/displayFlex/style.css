@@ -1,0 +1,22 @@
+.demo1,.demo2,.demo3,.demo4,.demo5,.demo6{
+    background-color: brown;
+    width: 120px;
+    height: 270px;
+    color: burlywood;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.wrapper{
+    /* width: 900px; */
+    /* height: 500px; */
+    background-color: chocolate;
+    display: flex;
+    
+    
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}

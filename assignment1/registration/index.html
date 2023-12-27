@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="reg">
+            <h1>Registration</h1><hr>
+            <form action="">
+                <div class="type">
+                    <input type="radio" name="type">
+                    <label for="">Personal</label>
+                    <input type="radio" name="type">
+                    <label for="">Company</label>
+                </div><hr>
+
+                <div class="data">
+                    <!-- <label for=""></label> --><img src="https://img.icons8.com/?size=96&id=19673&format=png" alt="">
+                    <input type="email" placeholder="Email" required><br>
+                    <label for=""><img src="https://img.icons8.com/?size=96&id=19673&format=png" alt=""></label>
+                    <input type="text" placeholder="Name" required><br>
+                    <label for=""><img src="https://img.icons8.com/?size=96&id=19673&format=png" alt=""></label>
+                    <input type="password" placeholder="Password" minlength="8"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    <br><br>
+                </div>
+
+                <div class="gender">
+                    <input type="radio" name="gender">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="">Female</label><br><br>
+                </div>
+
+                <div class="footer">
+                    <p>By clickng Register,you agree on our <a href="">terms and conditions</a></p>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+           
+
+        </div>
+    </div>
+</body>
+</html>

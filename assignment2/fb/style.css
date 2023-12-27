@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color:#f0f2f5 ;
+}
+img{  
+    height: 106px;
+    margin: -28px;
+}
+h2{
+    font-size: 24px;
+    line-height: 28px;
+    width: 550px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.input{
+    padding: 14px 16px;
+    border: 1px solid rgb(175, 136, 136);
+    border-radius: 0.5rem;
+    margin-bottom: 15px;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+.sec1{
+    background-color: antiquewhite;
+    padding: 30px;
+   
+}
+.sec2{
+    background-color: white;
+    border:1px solid rgb(142, 112, 112);
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+.main{
+    
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.main{
+    margin: auto;
+    height: 280px;
+    width: 220px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 1rem;
+}
+table,th,td{
+    border: 1px solid rgb(34, 12, 233);
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    color: blueviolet;
+}
+.yellow{
+    background-color: yellowgreen;
+}

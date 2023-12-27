@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    height: 75px;
+    color: white;
+}
+ul{
+    float: right;
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+li a:hover{
+    
+    background-color: rgb(22, 32, 77);
+    
+    
+}
+a{
+    color:rgb(255, 255, 255);
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.main{
+    height: 100vh;
+    background-color: black;
+}
